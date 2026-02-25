@@ -17,8 +17,8 @@ exiftool file
 xxd file | head -n 5
 
 ```
-**![cat Output](assets/images/exif.png)**
-**![cat Output](assets/images/xxd.png)**
+**![Output](assets/images/exif.png)**
+**![Output](assets/images/xxd.png)**
 *(Di sini saya mengambil screenshot tampilan terminal saat menjalankan perintah `exiftool` dan `xxd` yang menampilkan output `5c78 ffe0 0010 4a46 4946`)*
 
 ### 2. Memperbaiki Magic Bytes (Header)
@@ -29,7 +29,7 @@ Setelah mengetahui bahwa 2 *byte* pertamanya salah, saya perlu mengganti `5c78` 
 printf '\xff\xd8' | dd of=file bs=1 seek=0 count=2 conv=notrunc
 
 ```
-**![cat Output](assets/images/print.png)**
+**![Output](assets/images/print.png)**
 *(Di sini saya mengambil screenshot saat menjalankan perintah `printf` dan `dd` di terminal beserta output konfirmasi dari `dd`)*
 
 ### 3. Verifikasi dan Ekstraksi Flag
@@ -41,9 +41,10 @@ exiftool file
 mv file file.jpg
 
 ```
-**![cat Output](assets/images/exifmv.png)**
+**![Output](assets/images/exifmv.png)**
 
-**![cat Output](assets/images/flag.png)**
+**![Output](assets/images/flag.png)**
+
 *(Di sini saya mengambil screenshot yang menampilkan gambar yang berhasil dibuka, di mana terdapat teks flag berwarna merah di tengah gambar dengan latar belakang putih)*
 
 ## Tools yang Digunakan
