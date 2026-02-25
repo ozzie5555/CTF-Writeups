@@ -42,6 +42,7 @@ python3 solve.py
 
 ```
 **![flag Output](assets/images/flag.png)**
+
 *(Di sini saya mengambil screenshot terminal yang menampilkan output flag: picoCTF{t1ny_e_46e014ec})*
 
 ## Tools yang Digunakan

@@ -19,6 +19,7 @@ xxd file | head -n 5
 ```
 **![Output](assets/images/exif.png)**
 **![Output](assets/images/xxd.png)**
+
 *(Di sini saya mengambil screenshot tampilan terminal saat menjalankan perintah `exiftool` dan `xxd` yang menampilkan output `5c78 ffe0 0010 4a46 4946`)*
 
 ### 2. Memperbaiki Magic Bytes (Header)
@@ -30,6 +31,7 @@ printf '\xff\xd8' | dd of=file bs=1 seek=0 count=2 conv=notrunc
 
 ```
 **![Output](assets/images/print.png)**
+
 *(Di sini saya mengambil screenshot saat menjalankan perintah `printf` dan `dd` di terminal beserta output konfirmasi dari `dd`)*
 
 ### 3. Verifikasi dan Ekstraksi Flag
@@ -60,4 +62,4 @@ Challenge "Corrupted file" adalah tantangan forensik dasar yang berfokus pada pe
 
 Flag yang ditemukan di dalam gambar tersebut adalah **`picoCTF{r3st0r1ng_th3_by73s_249e4e3c}`**. Makna dari flag ini adalah "*restoring the bytes*" (memulihkan byte), yang mendeskripsikan secara tepat teknik penyelesaian challenge ini, di mana saya memulihkan *byte* yang rusak agar *file* bisa hidup kembali.
 
----1
+---
