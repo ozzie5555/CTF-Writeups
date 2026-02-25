@@ -41,6 +41,7 @@ Crowd: pico;RETURN 0
 
 ```
 **![nc Output](assets/images/nc.png)**
+
 Setelah menekan Enter, program melanjutkan eksekusi ke *Verse 2*.
 *(Di sini saya mengambil screenshot saat mengetikkan payload `pico;RETURN 0` di terminal)*
 
