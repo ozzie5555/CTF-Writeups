@@ -1,19 +1,19 @@
-# CTF Write-ups
+# 🚩 CTF Write-ups
 
-Repositori ini berisi kumpulan dokumentasi, solusi, *script*, dan metodologi dari berbagai tantangan Capture The Flag (CTF) yang telah saya selesaikan. Repositori ini dibangun sebagai catatan belajar pribadi serta portofolio dalam mendalami bidang keamanan siber (*cybersecurity*).
+Repositori ini cuma sekadar catatan pribadi saya yang masih pemula banget dalam belajar *cybersecurity* dan main Capture The Flag (CTF). Isinya kebanyakan coret-coretan dan dokumentasi cara saya nyelesain soal, itung-itung buat pengingat diri sendiri kalau besok-besok lupa caranya.
 
-## Sumber dan Kategori
-Dokumentasi di dalam repositori ini berasal dari berbagai platform latihan CTF (seperti picoCTF, HackTheBox) maupun arsip kompetisi yang pernah saya ikuti. Kategori penyelesaian masalah yang dibahas mencakup:
+## Yang Sedang Dipelajari
+Soal-soalnya biasanya saya ambil dari platform latihan (kayak picoCTF dan sejenisnya) atau sisa-sisa lomba yang kebetulan saya iseng ikuti. Saya masih meraba-raba di beberapa kategori ini:
 
-* **Web Exploitation** (SSTI, SQL Injection, XSS, Command Injection)
-* **Reverse Engineering** (Analisis Assembly, Dekompilasi APK/ELF)
-* **Binary Exploitation / Pwn** (Buffer Overflow, ROP, Proteksi Bypass seperti PIE/NX)
-* **Digital Forensics** (Steganografi, Analisis Paket Jaringan)
-* **Cryptography** (Cipher, Dekripsi Hash)
-* **General Skills & OSINT** (Pemanfaatan Linux CLI, Scripting)
+* **Web Exploitation** (masih belajar nyari celah dasar kayak SQLi, XSS, atau SSTI)
+* **Reverse Engineering** (coba-coba baca Assembly tipis-tipis atau decompile APK)
+* **Binary Exploitation / Pwn** (baru banget belajar ngerjain Buffer Overflow dkk)
+* **Digital Forensics** (biasanya ngulik steganografi atau baca PCAP)
+* **Cryptography** (mecahin cipher dasar)
+* **General Skills** (banyak ngandelin command-command dasar Linux)
 
-## Perangkat yang Digunakan
-Dalam menyelesaikan berbagai tantangan, saya mengutamakan penggunaan utilitas berbasis Linux CLI dan *scripting*. Beberapa perangkat yang rutin digunakan antara lain: `grep`, `awk`, `strings`, `curl`, `objdump`, `ltrace`, `strace`, `gdb`, dan `Python 3` (termasuk *library* seperti pwntools).
+## Tools Sebisanya
+Karena jam terbang masih kurang, *tools* yang saya pakai juga biasanya cuma ngandelin bawaan Linux CLI atau modal *script* Python seadanya. Yang paling sering dipake paling cuma: `grep`, `awk`, `strings`, `ltrace`, `objdump`, `gdb`, sama `pwntools`. 
 
-## Penafian (Disclaimer)
-> **Peringatan Edukasi:** Seluruh *write-up*, *payload*, dan *script* yang terdapat di dalam repositori ini didokumentasikan murni untuk tujuan **edukasi dan riset keamanan siber**. Penulis tidak bertanggung jawab atas penyalahgunaan informasi atau teknik di dalam repositori ini untuk kegiatan ilegal atau menyerang sistem tanpa izin yang sah.
+## Disclaimer
+> Catatan ini dibuat murni buat dokumentasi belajar saya sendiri. Kalau di dalam *write-up* ini ada cara yang berantakan, kurang efektif, atau malah salah kaprah, mohon dimaklumi namanya juga masih belajar. Tolong jangan pakai *script* atau trik di sini buat hal-hal yang aneh dan merugikan orang lain ya. Murni buat edukasi aja!
