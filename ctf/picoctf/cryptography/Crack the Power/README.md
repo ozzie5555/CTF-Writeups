@@ -1,4 +1,4 @@
-# Write-Up: Crack the Power (Unknown Points - Medium)
+# Write-Up: Crack the Power (Medium)
 
 ## Analisis Masalah
 
