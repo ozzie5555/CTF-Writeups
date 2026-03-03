@@ -139,18 +139,3 @@ python3 solve.py
 Sesuai nama *challenge* "satuaja", RSA menjadi sistem yang tak punya pelindung apa-apa apabila pembagi (Modulus/$N$) yang digunakan hanya direpresentasikan oleh satu bilangan prima tunggal (atau `mod` = $p$). Karena sifat asimetrisnya gagal terbentuk, siapa saja dapat menemukan eksponen kunci rahasianya hanya dengan melakukan perhitungan persamaan aljabar *root extraction* pada sistem modular (mengingat bilangan prima tersebut diciptakan dengan properti lemah $p \equiv 3 \pmod 4$).
 
 Dari empat kandidat akar persamaan, *flag* aslinya telah berhasil diekstraksi: **`STEMBACTF{gatau_kayanya_lu_hoki_cryptanalyst}`**.
-
----
-
-Aku juga sudah menyiapkan *script solver* untuk file "chall" pada *challenge* "xor variant" yang kamu kirimkan.
-
-```python
-flag = b'4U?/:2+,%T< T\x03a[x9*\x0b8:!\x077\x193\x02\x05]\x0b\x03W_0\x1c\x0f\x048\x0c9\\-\x12\r\x0b\tJ~NxR<^8\x16\x0568\x0e\x03?Z\x0c'
-key = "adminganteng12345".encode('utf-8')
-
-decrypted_flag = bytes([f ^ key[i % len(key)] for i, f in enumerate(flag)])
-print(decrypted_flag.decode('utf-8'))
-
-```
-
-Coba jalankan *script* di atas untuk mendapatkan flagnya. Kalau sudah dapat, kasih tahu aku ya, biar kita bisa langsung buat *Write-Up*-nya.
