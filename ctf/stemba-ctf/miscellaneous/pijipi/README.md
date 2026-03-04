@@ -8,7 +8,7 @@ Dari petunjuk yang diberikan, saya menduga challenge ini melibatkan steganografi
 ## Langkah Penyelesaian
 ### 1. Ekstraksi File Awal
 Pertama-tama, saya mengekstrak file `pjipi.zip` untuk melihat isinya:
-![Unzip File](assets/images/unzip-file.png)
+![Unzip File](assets/images/unzip file.png)
 Hasilnya adalah dua file:
 - `hint.txt` - Berisi informasi tentang Kleopatra VII
 - `srek-ayank.jpeg` - File gambar yang akan dianalisis
