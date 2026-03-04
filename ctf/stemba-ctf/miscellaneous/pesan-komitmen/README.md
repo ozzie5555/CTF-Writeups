@@ -15,7 +15,6 @@ Langkah pertama adalah mengekstrak file ZIP dan masuk ke direktori repository.
 ```bash
 unzip Pesan_Komitmen.zip
 cd "Pesan Komitmen - Copy"
-
 ```
 ![Unzip Output](assets/images/unzip.png)
 ### 2. Analisis Log Git
@@ -24,7 +23,6 @@ Saya memeriksa riwayat commit untuk melihat aktivitas perubahan pada repository.
 
 ```bash
 git log --stat
-
 ```
 ![git Output](assets/images/git-log.png)
 **Temuan:**
@@ -53,7 +51,6 @@ String tersebut adalah format **Base64** (diakhiri dengan `=`). Saya mendekodeny
 
 ```bash
 echo "U1RFTUJBQ1RGe2Izcm00aW5fZDNuZzRuX2cxdF9jMG1taXRfbTNzNWFnM30=" | base64 -d
-
 ```
 ![git Output](assets/images/echo-file.png)
 Hasil decode menampilkan flag yang benar:

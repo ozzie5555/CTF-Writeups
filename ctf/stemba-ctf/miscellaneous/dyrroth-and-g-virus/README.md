@@ -10,8 +10,8 @@ Soal ini memberikan sebuah file gambar bernama `transmission.png` dengan deskrip
 
 Langkah pertama adalah memeriksa metadata dan properti gambar menggunakan `exiftool`.
 
-> **![exiftool Output](assets/images/exiftool.png)**
-> *Caption: Pemeriksaan metadata menunjukkan dimensi gambar yang tidak wajar.*
+ **![exiftool Output](assets/images/exiftool.png)**
+
 
 **Temuan Penting:**
 Dari hasil pemeriksaan, terlihat bahwa dimensi gambar adalah **`701x1`** (Lebar 701 pixel, Tinggi 1 pixel).
@@ -29,8 +29,7 @@ Karena data tersimpan dalam nilai warna pixel, kita tidak bisa membacanya secara
 
 Berikut adalah script yang digunakan untuk mendekode gambar tersebut:
 
-> **![nano Output](assets/images/nano-file.png)**
-> *Caption: Script Python untuk mengekstrak pesan dari pixel gambar.*
+**![nano Output](assets/images/nano-file.png)**
 
 ```python
 from PIL import Image
@@ -60,8 +59,7 @@ print(full_message)
 
 Setelah script dijalankan, muncul sebuah log percakapan ("Chat Log") antara karakter bernama **Murasaki** dan **Dyrroth**.
 
-> **![python Output](assets/images/python.png)**
-> *Caption: Hasil dekode menampilkan percakapan rahasia.*
+**![python Output](assets/images/python.png)**
 
 Saya menelusuri teks percakapan tersebut dan menemukan sebuah pesan spesifik pada stempel waktu **02:04:24**:
 
