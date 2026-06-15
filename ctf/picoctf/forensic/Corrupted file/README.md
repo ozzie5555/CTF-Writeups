@@ -15,7 +15,6 @@ Pertama-tama, saya memeriksa *file* menggunakan `exiftool` yang ternyata gagal m
 ```bash
 exiftool file
 xxd file | head -n 5
-
 ```
 **![Output](assets/images/exif.png)**
 **![Output](assets/images/xxd.png)**
@@ -41,7 +40,6 @@ Setelah *header* diperbaiki, saya memastikan *file* sudah kembali normal dengan 
 ```bash
 exiftool file
 mv file file.jpg
-
 ```
 **![Output](assets/images/exifmv.png)**
 
