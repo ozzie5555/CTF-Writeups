@@ -64,6 +64,7 @@ xdg-open output.jpg
 *(Di sini saya mengambil screenshot output `file output.bin` yang menampilkan "JPEG image data, JFIF standard 1.01, ... 800x500, components 3")*
 
 **![Output](assets/images/flag.png)**
+
 *(Di sini saya menampilkan gambar `output.jpg` yang berhasil dibuka, di mana terdapat teks flag berwarna merah dengan latar belakang putih)*
 
 ## Tools yang Digunakan
