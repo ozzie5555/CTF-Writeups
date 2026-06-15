@@ -17,6 +17,7 @@ head -c 64 digits.bin
 ```
 
 **![Output](assets/images/identify.png)**
+
 *(Di sini saya mengambil screenshot tampilan terminal saat menjalankan ketiga perintah di atas, yang menunjukkan bahwa `digits.bin` adalah ASCII text sepanjang 71192 karakter berisi `0` dan `1`)*
 
 ### 2. Merekonstruksi Binary String Menjadi File Biner
