@@ -72,9 +72,8 @@ Flag berhasil diekstrak: **`picoCTF{more_than_m33ts_the_3y3391 40129}`**
 
 ### Tools yang Digunakan
 
-1. **wget** — Untuk mengunduh berkas `garden.jpg` dari URL challenge.
-2. **binwalk** — Untuk melakukan analisis signature-based terhadap struktur internal berkas dan mendeteksi kemungkinan embedded file.
-3. **xxd** — Untuk menampilkan hex dump berkas dan menginspeksi konten raw byte, khususnya pada bagian akhir berkas setelah JPEG end-of-file marker.
+1. **binwalk** — Untuk melakukan analisis signature-based terhadap struktur internal berkas dan mendeteksi kemungkinan embedded file.
+2. **xxd** — Untuk menampilkan hex dump berkas dan menginspeksi konten raw byte, khususnya pada bagian akhir berkas setelah JPEG end-of-file marker.
 
 ---
 
