@@ -46,6 +46,7 @@ echo "cGljb0NURntNRTc0RDQ3QV9ISUREM05fYTZkZjhkYjh9Cg==" | base64 -d
 ```
 
 **![Output](assets/images/base64.png)**
+
 *(Di sini saya mengambil screenshot tampilan terminal saat menjalankan perintah `echo` yang di-pipe ke `base64 -d` untuk memproses string tersebut hingga memunculkan flag asli)*
 
 ## Tools yang Digunakan
