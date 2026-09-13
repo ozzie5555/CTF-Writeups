@@ -17,6 +17,7 @@ cat chall.py out.txt
 ```
 **![Output](assets/images/cat.png)**
 **![Output](assets/images/catt.png)**
+
 Inti dari kerentanan ini berada di dalam beberapa baris pada `chall.py`:
 
 ```python
@@ -184,14 +185,6 @@ Saat *script* dijalankan, program dengan sukses membangun *baby step table* seba
 python3 solve.py
 ```
 **![Output](assets/images/solve.png)**
-
-Output yang diharapkan:
-
-```
-[+] SECRET DITEMUKAN: s = 1231022600693
-[+] Verifikasi e(G, s) == q: True
-[+] FLAG: b'WRECKIT70{s0lv1ng_th3_m4tr1x}'
-```
 
 ## Kesimpulan
 
